@@ -1,0 +1,23 @@
+user tutorial:
+* write 's' or 'S' to stop the program (mark the end of pattern input in part 3.)
+
+1. specify first row and column of your pattern input:
+  row: integer (1-512)
+  column: integer (1-512)
+
+2. pattern input:
+  0  			dead cell
+  x,X,n,N		no change
+  1,2,3,4,5,6,7,8,9 	live cell (number of generation cell can survive on its own)
+  i,I			immortal cell
+  e,E			mark the end of row
+  s,S,q,Q		mark the end of pattern (and press ENTER)
+  every other symbol is meaningless
+
+	i.e.:	01e
+		001e
+		111s 
+	to make a glider :)
+
+3. number of generations:integer (1-512)
+			* or 's' ('S' or just 'stop' to stop the program)
